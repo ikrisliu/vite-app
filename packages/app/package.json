@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "appkit": "workspace:^",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-helmet": "catalog:",
+    "react-router-dom": "catalog:",
+    "swr": "catalog:",
+    "use-immer": "catalog:",
+    "uuid": "catalog:",
+    "valtio": "catalog:"
+  }
+}

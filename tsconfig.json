@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    // Projects(Monorepo)
+    "composite": true,
+    // Language and Environment
+    "target": "ES2015",
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2015",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    // Modules
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "types": [
+      "react",
+      "react-dom",
+      "vite/client"
+    ],
+    // Type Checking
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // Interop Constraints
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "allowSyntheticDefaultImports": false,
+    // Emit
+    "noEmit": true,
+    "sourceMap": false,
+    // Completeness
+    "skipLibCheck": true
+  },
+  "include": [
+    "libs/*/src",
+    "packages/*/src",
+    "types"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

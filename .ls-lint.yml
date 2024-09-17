@@ -1,0 +1,22 @@
+ls:
+  libs/*/src:
+    .dir: lowercase
+    .ts: kebab-case | PascalCase
+    .tsx: PascalCase
+    .d.ts: kebab-case | PascalCase
+    .test.ts: kebab-case | PascalCase
+    .svg: kebab-case
+    .json: kebab-case
+
+  packages/*/src:
+    .dir: lowercase
+    .ts: kebab-case | PascalCase
+    .tsx: PascalCase
+    .d.ts: kebab-case | PascalCase
+    .test.ts: kebab-case | PascalCase
+    .svg: kebab-case
+    .json: kebab-case
+
+ignore:
+  - 'packages/**/main.tsx'
+  - 'packages/**/index.html'
