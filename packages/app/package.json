@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "appkit": "workspace:^",
+    "appservice": "workspace:^",
     "react": "catalog:",
     "react-dom": "catalog:",
     "react-helmet": "catalog:",

@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly viteCdnBaseUrl: string
+  readonly VITE_CDN_BASE_URL: string
 }
 
 interface ImportMeta {

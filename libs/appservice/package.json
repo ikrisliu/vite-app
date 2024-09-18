@@ -1,0 +1,19 @@
+{
+  "name": "appservice",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -b",
+    "lint": "eslint ",
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "axios": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}

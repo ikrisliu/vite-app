@@ -1,18 +1,18 @@
 ls:
   libs/*/src:
     .dir: lowercase
-    .ts: kebab-case | PascalCase
+    .ts: kebab-case
     .tsx: PascalCase
-    .d.ts: kebab-case | PascalCase
+    .d.ts: kebab-case
     .test.ts: kebab-case | PascalCase
     .svg: kebab-case
     .json: kebab-case
 
   packages/*/src:
     .dir: lowercase
-    .ts: kebab-case | PascalCase
+    .ts: kebab-case
     .tsx: PascalCase
-    .d.ts: kebab-case | PascalCase
+    .d.ts: kebab-case
     .test.ts: kebab-case | PascalCase
     .svg: kebab-case
     .json: kebab-case

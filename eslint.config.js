@@ -54,5 +54,17 @@ export default ts.config(
         },
       ],
     },
-  }
+  },
+  {
+    files: ['types/vite-env.d.ts'],
+    rules: {
+      '@typescript-eslint/naming-convention': [
+        'error',
+        {
+          selector: 'property',
+          format: ['strictCamelCase', 'UPPER_CASE'],
+        },
+      ],
+    },
+  },
 )

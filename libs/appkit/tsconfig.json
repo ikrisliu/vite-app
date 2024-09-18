@@ -10,10 +10,7 @@
     "emitDeclarationOnly": true
   },
   "include": [
-    "src"
-  ],
-  "exclude": [
-    "dist",
-    "node_modules"
+    "src",
+    "../../types"
   ]
 }

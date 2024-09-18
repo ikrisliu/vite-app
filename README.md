@@ -13,12 +13,6 @@ Currently, two official plugins are available:
 - IntelliJ IDEA, WebStorm or Visual Studio Code
 
 ## Installation
-Install `HomeBrew`
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
 Install `NVM` and `Node`
 
 ```shell
@@ -31,6 +25,11 @@ Install `pnpm`
 ```shell
 corepack enable pnpm
 corepack use pnpm@latest
+```
+
+Install dependencies
+```shell
+pnpm install
 ```
 
 ## Run and Build
