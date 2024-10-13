@@ -13,18 +13,10 @@ Currently, two official plugins are available:
 - IntelliJ IDEA, WebStorm or Visual Studio Code
 
 ## Installation
-Install `NVM` and `Node`
+Install tools
 
 ```shell
-brew install nvm
-nvm install node 22 (or >22)
-nvm use 22
-```
-
-Install `pnpm`
-```shell
-corepack enable pnpm
-corepack use pnpm@latest
+make setup
 ```
 
 Install dependencies
