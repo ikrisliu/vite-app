@@ -11,7 +11,8 @@
     "build": "pnpm -F app build",
     "lint": "eslint .",
     "preview": "pnpm -F app preview --open",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky"
   },
   "pnpm": {
     "overrides": {
@@ -26,11 +27,6 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache ."
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && ls-lint"
-    }
   },
   "devDependencies": {
     "@eslint/js": "^9.10.0",
